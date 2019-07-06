@@ -1,0 +1,9 @@
+{% extends "blog/base.html" %}
+{% block content %}
+  <h4 class="mb-3">Posts by {{ view.kwargs.username }} ({{ page_obj.paginator.count }})</h4>
+    {% for post in posts %}
+      {% include "blog/post_card.html" %}
+    {% endfor %}
+
+  {% include "blog/pagination.html" %}
+{% endblock content %}
