@@ -138,6 +138,6 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'pythontestemailshtrikuldmitry'
 # EMAIL_HOST_PASSWORD = 'flaskblog'
 EMAIL_HOST_PASSWORD = 'sqzvfctjzgymxqdi'
-sqzvfctjzgymxqdi
+
 
 django_heroku.settings(locals())
